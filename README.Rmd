@@ -1,0 +1,76 @@
+---
+title: "project4-BeeMe"
+output:
+  word_document:
+    toc: false
+    number_sections: false
+---
+
+## Team: BeeME
+
+**Team members:**
+
+- Omodolapo Nurudeen (<onurude1@jh.edu>)
+- John Paul Akinbami (<jakinba1@jh.edu>)
+- Anandita (Nina) Rajpurohit (<arjpur1@jh.edu>)
+
+---
+
+## Project: Variant Effect Dashboard
+
+Our shiny app has been deployed here:  
+<https://arajpur1.shinyapps.io/variant-dashboard/>
+
+A write-up of this final project is also included in this repo, with the file name: **Final Write-up**
+
+---
+
+## Project Overview
+
+Interpreting the functional impact of genomic variants is a major challenge in genomics and precision medicine. While sequencing technologies can identify millions of variants, determining which ones are likely to disrupt molecular function remains difficult.
+
+Our **Variant Effect Dashboard** creates an interactive tool that makes known variant information from multiple sources easily accessible in one space. It also aims to improve the prediction of a variant’s clinical effects through a machine learning model.  
+
+Of note, due to file size limitations, the current dataset is restricted to the first 10% (470,000) known variants on Chr1. If you are looking to explore the tool, Chr 1:925946 (SMAD11) could be a place to start.
+
+---
+
+
+## Key Project Features
+
+### Variant Information Page
+
+Combines genomic context, functional annotations, population frequency statistics, gene ontology information, and literary evidence into a single, interactive presentation of a specific variant.
+Users enter a chromosome and genomic position to retrieve specific variant information in mini cards.
+
+---
+
+### Variant Effect Prediction Page
+
+Summarizes computational evidence for the functional impact of a selected genetic variant, including SIFT, PolyPhen, FATHMM, and CADD pathogenicity scores, as well as our achine learning model GVPS. Provides a consensus interpretation of predicted clinical effect classification.
+
+---
+
+### Variant Feature Explorer Pages
+
+#### Machine Learning Explorer Page
+
+Supports broad exploration of the full set of machine learning–predicted variants, enabling users to move fluidly from high-level patterns to specific subsets of interest.
+
+#### Ranking Page
+
+Allows users to quickly identify the most extreme or biologically interesting variants according to any numeric metric in the dataset.
+
+#### Distribution Page
+
+Provides distributional visualizations for key GVPS metrics.
+
+#### Variant Detail Page
+
+Creates a concise summary table of key fields for a given variant, allowing for easy download of information.
+
+---
+
+### Predict on Uploaded Data Page
+
+Extends the dashboard beyond our curated dataset, allowing users to upload their own variant files and obtain machine learning-based predictions using the same trained models used in the main application.
