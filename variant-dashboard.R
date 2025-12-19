@@ -506,7 +506,8 @@ ui <- dashboardPage(
           collapsed = TRUE,
           p(
             "Users can look up variants by chromosome and position using the Variant Information page. ",
-            "The current version of this tool is restricted to the first 470,000 known single nucleotide variants on chromosome 1."
+            "The current version of this tool is restricted to the first 470,000 known single nucleotide variants on chromosome 1.
+            If you are just looking to explore the tool, Chr 1:925946 (SMAD11) could be a place to start."
           )
         ),
         
