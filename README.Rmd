@@ -20,7 +20,7 @@ output:
 Our shiny app has been deployed here:  
 <https://arajpur1.shinyapps.io/variant-dashboard/>
 
-A write-up of this final project is also included in this repo, with the file name: **Final Write-up**
+A write-up of this final project is also included in this repo, with the file name: **Final Write-Up**
 
 ---
 
