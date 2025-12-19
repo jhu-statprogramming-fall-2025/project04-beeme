@@ -1,4 +1,10 @@
-
+---
+title: "project4-BeeMe"
+output:
+  word_document:
+    toc: false
+    number_sections: false
+---
 ## Team: BeeME
 
 **Team members:**
