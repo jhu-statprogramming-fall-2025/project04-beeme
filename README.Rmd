@@ -12,7 +12,7 @@ output:
 
 - Omodolapo Nurudeen (<onurude1@jh.edu>)
 - John Paul Akinbami (<jakinba1@jh.edu>)
-- Anandita (Nina) Rajpurohit (<arjpur1@jh.edu>)
+- Anandita (Nina) Rajpurohit (<arajpur1@jh.edu>)
 
 ---
 
